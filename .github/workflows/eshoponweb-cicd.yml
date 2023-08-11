@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: mafa-rg
-  LOCATION: Brazil South
+  LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 7e8bb5e1-a864-4634-9402-311aad42b2db
   WEBAPP-NAME: az400-webapp-mafa-eShopOnWeb
